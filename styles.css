@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e5e5e5;
+}
+
+.container {
+  margin: auto;
+  width: 960px;
+  height: 650px;
+  padding: 5px;
+}
+
+.img {
+  width: 100%;
+  float: left;
+
+}
+
+.left {
+  float: left;
+  width: 70%;
+  height: 70%;
+  border-radius: 24px;
+
+}
+
+.rigth {
+  float: right;
+  width: 30%;
+  height: 88%;
+  border-radius: 24px;
+  background: white;
+  
+}
+
+.left-button {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 24%;
+ 
+}
+
+.imglogo {
+  height: 48px;
+  width: 31.085588455200195px;
+  left: 44px;
+  top: 0px;
+  border-radius: 0px;
+}
+
+.text-input {
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  border: none;
+  outline: none;
+  background: #f3f5fc;
+  /* identical to box height, or 48px */
+
+  /* Dark blue/dark-blue-300 */
+
+  color: #0a3871;
+}
+
+h1 {
+  width: 314px;
+  height: 58px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 29px */
+
+  text-align: center;
+
+  /* Gray/gray-500 */
+
+  color: #343a40;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#texto {
+  width: 278px;
+  height: 130px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+
+  text-align: center;
+
+  /* Gray/gray-400 */
+
+  color: #495057;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+#imgright {
+  /*   position: absolute;
+  width: 313px;
+  height: auto;
+  left: 853px;
+  top: 72px; */
+  margin-left: 2%;
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+}
+
+#btn-encriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #0a3871;
+}
+
+#btn-desencriptar {
+  padding: 24px;
+  width: 30%;
+  height: 60%;
+  border-radius: 24px;
+  margin-left: 15%;
+  background: #d8dfe8;
+}
+
+#copiar{
+ margin-left:33% ;
+ margin-top: 90%;
+ padding: 24px;
+ width: 40%;
+ height: 10%;
+ background: #D8DFE8;
+ border-radius: 24px;
+ display: none;
+
+
+}
